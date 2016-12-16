@@ -1,0 +1,116 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Lora");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Lato|Open+Sans");
+/* Test http://leaverou.github.io/contrast-ratio/#black-on-%233E913C */
+/* Apply Background Colors */
+body {
+  background: #497A2D;
+  color: #E0FFE2; }
+
+.navbar,
+.footer {
+  background: #779135;
+  border-color: transparent;
+  color: #011D03; }
+
+#navbar > ul > li.active > a {
+  background: darkslategray;
+  color: #E0FFE2;
+  opacity: 0.85; }
+#navbar > ul > li > a {
+  color: #011D03; }
+
+.navbar-inverse .container .navbar-brand {
+  color: #011D03; }
+
+body > footer > div > div > div.col-xs-12.col-md-4.social > a {
+  color: #011D03; }
+
+/* Apply the Font Family */
+body {
+  font-family: "Droid Sans", "Lato", "Open Sans", Arial, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Droid Serif", "Lora", Georgia, serif; }
+
+/* Set the footer to stick to the bottom of the page */
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 100px;
+  /* Same Size as footer min-height */ }
+
+body > .container {
+  padding-top: 100px;
+  /* Same Size as footer min-height */ }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 40px; }
+
+/* Center the Footer Content */
+.footer .container {
+  text-align: center;
+  font-size: 3.0rem; }
+
+.copyrightText {
+  font-size: 2.0rem; }
+
+/* ECT Helpers */
+.top-buffer {
+  margin-top: 25px; }
+
+/* Index.html */
+.missionStatementJumbotron {
+  background: #3E913C;
+  color: #011D03; }
+
+.module {
+  background: #3E913C;
+  color: #011D03;
+  text-align: left;
+  padding: 10px 5px; }
+
+/* Help.html */
+#stepsToHelp li.list-group-item {
+  list-style: decimal inside;
+  display: list-item; }
+
+.list-group-item-custom {
+  background: #359168;
+  color: #011D03;
+  border: 1px solid black; }
+
+/* Contact.html */
+.map {
+  background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=45.348307,-75.755990&zoom=13&size=600x300&maptype=roadmap&markers=color:green%7Clabel:%7C45.348307, -75.755990&key=AIzaSyCB42vFOCiKZEwqzi7js2uVSMYOR3UamRU");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 600px;
+  height: 300px;
+  margin: 0 auto; }
+
+.contactPanel {
+  margin-top: 20px;
+  border: 0px solid transparent; }
+
+.contactPanel > .panel-heading {
+  background: #2D7A42;
+  color: #E0FFE2;
+  border-bottom: 1px solid black;
+  text-align: center; }
+
+.contactPanel > .panel-body {
+  background: #3E913C; }
+
+/*# sourceMappingURL=main.css.map */
